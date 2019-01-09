@@ -1,0 +1,196 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="Untitled.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>GAP</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Gestión de expedientes<span class="badge">42</span></a>
+            </li>
+            <li>
+              <a href="#">Búsqueda Avanzada</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-left navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Departamento 1 <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">Departamento 2</a>
+                </li>
+                <li>
+                  <a href="#">Departamento 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Nº de expediente">
+                  <span class="input-group-btn">
+                    <a class="btn btn-info" type="submit"><i class="fa fa-fw fa-search"></i>Buscar</a>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-9 text-right">
+            <div class="btn-group">
+              <a href="#" class="btn btn-success"><i class="fa fa-fw fa-plus"></i>Crear expediente<br></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-primary">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul class="breadcrumb lead">
+                      <li>
+                        <a href="#">Departamento 1</a>
+                      </li>
+                      <li>
+                        <a href="#">EXP00000002</a>
+                      </li>
+                      <li class="active">Grupo 1</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="row toolbar-row">
+                      <div class="col-md-3">
+                        <h4>Carpetas</h4>
+                      </div>
+                      <div class="col-md-9 text-right">
+                        <div class="btn-group">
+                          <a href="#" class="btn btn-warning"><i class="fa fa-fw fa-folder"></i>Nueva Carpeta</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="row row-padding">
+                          <div class="col-md-3">
+                            <a class="btn btn-block btn-default"><i class="fa fa-folder-o fa-fw fa-lg text-warning"></i>Tarea 1</a>
+                          </div>
+                          <div class="col-md-3">
+                            <a class="btn btn-block btn-default"><i class="fa fa-folder-o fa-fw fa-lg text-warning"></i>Tarea 2</a>
+                          </div>
+                          <div class="col-md-3">
+                            <a class="btn btn-block btn-default"><i class="fa fa-folder-o fa-fw fa-lg text-warning"></i>Tarea 3</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row  toolbar-row">
+                      <div class="col-md-3">
+                        <h4>Documentos</h4>
+                      </div>
+                      <div class="col-md-9 text-right">
+                        <div class="btn-group">
+                          <a href="#" class="btn btn-info"><i class="fa fa-fw fa-upload"></i>Añadir documento</a>
+                          <a href="#" class="btn btn-default"><i class="fa fa-fw fa-link"></i>Enlazar documento</a>
+                          <a href="#" class="btn btn-default"><i class="fa fa-fw fa-th"></i>Vista preliminar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <table class="table table-condensed table-hover">
+                          <thead>
+                            <tr>
+                              <th>
+                                <br>
+                              </th>
+                              <th>Nombre</th>
+                              <th>Tipo</th>
+                              <th>
+                                <i class="fa fa-fw fa-angle-down"></i>Fecha</th>
+                              <th width="50px">Descargar</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="info">
+                              <td>
+                                <i class="fa fa-file-o fa-fw fa-lg text-muted"></i>
+                              </td>
+                              <td>Solicitud&nbsp;</td>
+                              <td>Solicitud</td>
+                              <td>02/01/2016</td>
+                              <td>
+                                <i class="fa -o fa-fw fa-lg text-muted fa-download"></i>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <i class="fa fa-file-o fa-fw fa-lg text-muted"></i>
+                              </td>
+                              <td>1º Trienio</td>
+                              <td>Trienio</td>
+                              <td>01/01/2016</td>
+                              <td>
+                                <i class="fa -o fa-fw fa-lg text-muted fa-download"></i>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <i class="fa fa-file-o fa-fw fa-lg text-muted"></i>
+                              </td>
+                              <td>0000000A</td>
+                              <td>DNI</td>
+                              <td>01/01/2016</td>
+                              <td>
+                                <i class="fa -o fa-fw fa-lg text-muted fa-download"></i>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Detalles</h3>
+                      </div>
+                      <div class="panel-body">
+                        <img src="writingsamplesmall.JPG" class="img-responsive">
+                        <p>Metadato 1: -----
+                          <br>Metadato 2: -----</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
